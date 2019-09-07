@@ -1,0 +1,40 @@
+swiper {
+  height: 320rpx;
+}
+page {
+background: #F0F0F0;
+}
+.title {
+  font-size: 28rpx;
+  line-height: 1;
+  color: #3C3C3C ;
+  padding:20rpx 30rpx;
+  box-sizing: content-box;
+}
+.photo image {
+  vertical-align: middle;
+}
+.mean {
+font-size: 30rpx;
+padding:16rpx 130rpx 16rpx 30rpx;
+}
+.info {
+  background:#ffffff;
+  height: 180rpx;
+  position:relative;
+}
+.message{
+  position: absolute;
+  bottom:10rpx;
+  color: #B4B4B4;
+  font-size: 22rpx;
+  padding-left: 8rpx;
+}
+.free {
+  position: absolute;
+  color: #FE6249;
+  font-size: 30rpx;
+  top:10rpx;
+  right: 15rpx;
+}
+

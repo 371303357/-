@@ -1,0 +1,60 @@
+<!-- 轮播图 -->
+<swiper class="swipe-box" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+  indicator-color="rgba(255,255,255,0.6)" indicator-active-color="#fff" circular >
+  <block wx:for="{{imgUrls}}" wx:key="imgUrls.index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"	/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 活动名称 -->
+<view class="title">活动乐园</view>
+<view class="photo">
+<navigator>
+<image src="/static/uploads/item_1.png"></image>
+</navigator>
+</view>
+<!-- 活动主题 -->
+<view class="info">
+<view class="mean">
+<text>疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</text>
+</view>
+<view class="message">
+<text>200人已报名</text>
+<text>周六开始</text>
+</view>
+<view class="free">免费</view>
+</view>
+<view class="photo">
+<navigator>
+<image src="/static/uploads/item_2.png"></image>
+</navigator>
+</view>
+<!-- 活动主题 -->
+<view class="info">
+<view class="mean">
+<text>疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</text>
+</view>
+<view class="message">
+<text>200人已报名</text>
+<text>周六开始</text>
+</view>
+<view class="free">免费</view>
+</view>
+<view class="photo">
+<navigator>
+<image src="/static/uploads/item_3.png"></image>
+</navigator>
+</view>
+<!-- 活动主题 -->
+<view class="info">
+<view class="mean">
+<text>疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</text>
+</view>
+<view class="message">
+<text>200人已报名</text>
+<text>周六开始</text>
+</view>
+<view class="free">免费</view>
+</view>
